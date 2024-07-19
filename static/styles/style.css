@@ -1,0 +1,135 @@
+body {
+    background-color: rgb(0, 252, 42);
+    margin: 0%;
+    padding: 0;
+}
+
+.mein {
+    width: 85%;
+}
+
+.meein {
+    display:flex;
+    justify-content: center;
+}
+
+
+.cipher {
+    background-color: black;
+}
+
+/* .gopa-furri {
+    margin: top 20px;
+} */
+
+.furri-porn {
+    margin: 20px;    
+    float: right; /*сделать елемент плавающим, текст обволакивает картинку*/
+    background-color: rgb(199, 199, 199);
+}
+
+.text-furri {
+    max-width: 50cap;
+    text-align: center;
+}
+
+.text-furri>p {
+    margin: 0;
+}
+
+.furri-porn>img {
+    /* display: inline-block; */
+    max-width: 50cap;
+    min-width: 25cap;
+}
+
+.side {
+    background-color: rgb(255, 0, 255);
+    width: 10%;
+}
+
+.side2 {
+    background-color: rgb(255, 0, 255);
+    width: 10%;
+}
+
+.sex {
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+}
+
+.sex>nav>ul {
+    display: flex;
+    list-style: none;
+    margin: 0%;
+    padding: 0;
+    align-items: center;
+}
+
+.sex>nav>ul>li>a {
+    display: block;
+    padding: 5px;
+    color: brown;
+    text-decoration: none;
+    border-style:dashed;
+}
+.text {
+    padding-left: 10px;
+}
+
+.angel {
+    float: left;
+    padding-right: 5px;
+}
+
+.angel>p {
+    text-align: center;
+    color: mediumvioletred;
+    font-size: 50px ;
+    margin: 0%;
+}
+
+.angel>p>a {
+    text-decoration: none;
+}
+
+@media (max-width: 1080PX) {
+    .sex {
+        flex-direction: column-reverse;
+    }
+    .sex>nav>ul>li>a {
+        border-style: none;
+    }
+    .sex>nav>ul>li {
+        background-color: darkorange;
+    }
+    .furri-porn>img {
+        /* display: inline-block; */
+        max-width: 35cap;
+    }
+    .angel>img {
+        max-width: 30cap;
+    }
+    .angel>h2 {
+        padding: 20px;;
+    }
+    .angel {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 600PX) {
+    #svo {
+        display: none;
+    }
+}
+
+@media (max-width: 569PX) {
+    .angel {
+        display: block;
+        padding-right: 50;
+    }
+}
