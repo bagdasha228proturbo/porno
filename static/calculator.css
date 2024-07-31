@@ -1,0 +1,39 @@
+.calculator {
+    display: inline-block;
+
+}
+
+.numb {
+    display: grid;
+    grid-row: 1 / 1;
+    grid-column: 1/1;
+    background-color: #d41b8d;
+    padding: 5px ;
+}
+
+.btn {
+    display: inline-block;
+    align-items:center;
+    background-color: #d41b8d;
+    padding: 5px ;
+}
+
+#ps {
+    display: block;
+    text-decoration:dashed
+}
+
+#result {
+    margin: 0;
+    text-align: center;
+}
+
+.resultNumber {
+    background-color: aqua;
+}
+
+#resultNum {
+    margin: 0;
+    text-align: center;
+    font-size: large;
+}
