@@ -127,16 +127,19 @@ body {
     }
 }
 
-@media (max-width: 569PX) {
+@media (max-width: 600PX) {
 
     .furri-porn {
-        width: 75%;
+        display: block;
+        text-align: start;
+        width: 80%;
         min-width: 0;
     }
 
     .furri-porn>img {
         /* display: inline-block; */
         max-width: 100%;
+        min-width: 0;
     }
     .sex {
         justify-content:space-between ;
