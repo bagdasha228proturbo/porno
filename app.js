@@ -47,5 +47,3 @@ ps.onclick = function () {
     }
 
 }
-
-console.log(typeof(sum))

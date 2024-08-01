@@ -128,8 +128,38 @@ body {
 }
 
 @media (max-width: 569PX) {
+
+    .furri-porn {
+        width: 75%;
+        min-width: 0;
+    }
+
+    .furri-porn>img {
+        /* display: inline-block; */
+        max-width: 100%;
+    }
+    .sex {
+        justify-content:space-between ;
+    }
+
+    .body {
+        font-size: xx-small;
+    }
+
     .angel {
         display: block;
         padding-right: 50;
+    }
+    
+    .angel img {
+        width: 100%;
+    }
+
+    .side
+    .side2 {
+        display: none;
+    }
+    .mein {
+        width: 100%;
     }
 }
