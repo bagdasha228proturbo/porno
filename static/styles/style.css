@@ -143,6 +143,7 @@ body {
     }
     .sex {
         justify-content:space-between ;
+        width: 100%;
     }
 
     .body {
@@ -161,8 +162,12 @@ body {
     .side
     .side2 {
         display: none;
+        width: 0;
     }
     .mein {
         width: 100%;
+    }
+    #spotifi {
+        display: none;
     }
 }
