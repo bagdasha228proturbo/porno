@@ -1,9 +1,22 @@
 h1 {
     color: purple;
+    text-align: center;
+}
+
+.pidar {
+    background-color: black;
+}
+
+.foto-dima {
+    float: right;
+}
+
+.foto-bodya {
+    float: left;
 }
 
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", system-ui;
     font-weight: 500;
-    font-style: normal
+    font-style: normal;
 }
