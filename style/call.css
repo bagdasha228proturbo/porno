@@ -56,13 +56,29 @@ h1 {
     border-width: 0,5;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 600px) {
     .silki {
         flex-direction: column;
     }
 }
 
+.text-page {
+    padding-left: 15px;
+}
 
 .page {
     display: flex;
+    justify-content: center;
+    background-color: rgb(176, 172, 104);
+}
+
+.side {
+    width: 20%;
+    background-color: rgb(160, 87, 160);
+}
+
+.side2 {
+    width: 20%;
+    background-color: rgb(160, 87, 160);
+    
 }
