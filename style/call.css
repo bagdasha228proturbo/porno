@@ -11,34 +11,55 @@ h1 {
     text-align: center;
 }
 
-.pidar {
-    background-color: black;
+/* Сторока Діми */
+
+.dima>p>a {
+    color: blue;
 }
 
 .foto-dima {
     float: right;
 }
 
+
+/* Сторока Боді */
+
+.pidar {
+    background-color: black;
+}
+
 .foto-bodya {
     float: left;
 }
-
-.foto-kirill {
-    float: right;
-}
-
 .bogdan {
     margin-top: -50px;
     display: inline-block;
     height: 465px;
 }
 
+.bogdan>h2 {
+    margin-top: 60px;
+}
+
+.bogdan>p>a {
+    color: blue;
+}
+
+/* Строка Кіріла */
+
+.kirill>p>a {
+    color: blue;
+}
+
+.foto-kirill {
+    float: right;
+}
 
 /* Силачкі на соц. сети */
 .silki {
     display: flex;
     justify-content: space-between;
-    background-color: orange;
+    background-color: rgb(9, 2, 44);
 }
 
 .silki>nav>ul {
@@ -50,13 +71,14 @@ h1 {
 }
 
 .silki>nav>ul>li>a {
+    color: white;
     display: block;
     padding: 10px;
     border-style: solid;
     border-width: 0,5;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
     .silki {
         flex-direction: column;
     }
@@ -64,21 +86,13 @@ h1 {
 
 .text-page {
     padding-left: 15px;
+    padding-right: 15px;
 }
 
 .page {
+    color: white;
     display: flex;
     justify-content: center;
-    background-color: rgb(176, 172, 104);
+    background-color: rgb(0, 0, 0);
 }
 
-.side {
-    width: 20%;
-    background-color: rgb(160, 87, 160);
-}
-
-.side2 {
-    width: 20%;
-    background-color: rgb(160, 87, 160);
-    
-}
