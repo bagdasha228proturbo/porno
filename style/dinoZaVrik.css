@@ -9,11 +9,35 @@
 
 
 #dino {
-    width: 40px;
-    height: 40px;
-    background-image: url(/img/dinoZaVrik/sijey.png);
-    /* background-size: 40 40; */
+    width: 50px;
+    height: 50px;
+    background-image: url('/img/dinoZaVrik/dino.png');
+    /* background-size: 50 50; */
+    background-size: cover;    /*  Убедитесь, что изображение покрывает весь контейнер */
+    background-repeat: no-repeat;
+    background-position: center;
     position: relative;
-    
+    top: 75%;
+}
 
+#cactus {
+    width: 50px;
+    height: 50px;
+    background-image: url('/img/dinoZaVrik/cactus.png');
+    background-size: cover; 
+    background-size: 50 50;
+    position: relative;
+    top: 50%;
+    left: 90%;
+
+}
+
+@media (max-width: 600px) {
+    .game {
+        width: 100%;
+    }
+
+    #cactus {
+        left: 80%;
+    }
 }
