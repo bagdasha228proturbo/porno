@@ -15,8 +15,20 @@ h1 {
     float: left;
 }
 
+.foto-kirill {
+    float: right;
+}
+
+.bogdan {
+    margin-top: -55px;
+    display: inline-block;
+    height: 455px;
+}
+
 body {
     font-family: "Roboto", system-ui;
     font-weight: 500;
     font-style: normal;
 }
+
+/* Силачкі на соц. сети */
