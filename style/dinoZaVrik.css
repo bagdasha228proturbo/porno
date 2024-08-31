@@ -4,6 +4,12 @@
     background-color: aliceblue;
     margin: auto;
     border-bottom: 3px solid #000;
+    background-image: url(/img/dinoZaVrik/backDino.png);
+}
+
+.dinoText {
+    margin: auto;
+    text-align: center;
 }
 
 #dino, #cactus{
