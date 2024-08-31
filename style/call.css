@@ -78,7 +78,7 @@ h1 {
     border-width: 0,5;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 600px) {
     .silki {
         flex-direction: column;
     }
@@ -96,8 +96,3 @@ h1 {
     background-color: rgb(16, 16, 16);
 }
 
-@media (max-width: 1000px) {
-    input{
-        display: none;
-    }
-}
