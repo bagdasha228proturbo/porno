@@ -14,10 +14,12 @@ function jump() {
     }, 1000)
 
 }
-//  let dinaGizn = setInterval(function(){
-//     let dinaTop = parseInt(window.getComputedStyle(dino).getPropertyValue('top'))
-//     let cactusLeft = parseInt(window.getComputedStyle(cactus).getPropertyValue('left'))
+ let dinaGizn = setInterval(function(){
+    let dinaTop = parseInt(window.getComputedStyle(dino).getPropertyValue('top'))
+    let cactusLeft = parseInt(window.getComputedStyle(cactus).getPropertyValue('left'))
 
-//     if 
-//  })
+    if (cactusLeft < 40 && cactusLeft > 0 && dinaTop >= 140) {
+        
+    }
+ })
 
