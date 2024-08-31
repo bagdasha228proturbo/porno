@@ -1,12 +1,16 @@
 const dino = document.getElementById("dino")
 const cactus = document.getElementById("cactus")
 
+const press = document.getElementById('press')
+const gg = document.getElementById('gg')
+
 const dinoRyk = document.getElementById('dinoRyk')
 
 document.addEventListener('keydown', function(start){
     if (start.key === 'Enter') {
         document.getElementById("dino").style.animationPlayState = 'running';
         setInterval(document.getElementById("cactus").style.animationPlayState = 'running', 1000);
+        press.classList.add('pressNone')
     }
 })
 
@@ -33,6 +37,7 @@ document.addEventListener("keydown", function(event) {
         document.getElementById("cactus").style.animation = 'none';
         clearInterval(dinaGizn);
         dinoRyk.play()
+        gg.classList.add('ggNone')
     }
     // if (document.addEventListener('keydown', function(){
     //     if (start.key === 'Enter') {

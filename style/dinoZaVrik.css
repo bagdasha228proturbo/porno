@@ -12,6 +12,35 @@
     text-align: center;
 }
 
+#press {
+    position: absolute;
+    z-index: 1;
+    padding: 0;
+    margin:0;
+    text-align: center;
+    left: 46%;
+    color: brown;
+}
+
+.pressNone {
+    display: none;
+}
+
+#gg {
+    display: none;
+}
+
+.ggNone {
+    position: absolute;
+    z-index: 10;
+    padding: 0;
+    margin:0;
+    text-align: center;
+    color: brown;
+    left: 48%;
+}
+
+
 #dino, #cactus{
     animation-play-state: paused;
 }
