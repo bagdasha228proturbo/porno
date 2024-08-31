@@ -26,7 +26,9 @@ function jump() {
 }
 
 document.addEventListener("keydown", function(event) {
-    jump()
+    if (event.key !== 'Enter') {
+        jump()
+    }
 })
 
  let dinaGizn = setInterval(function(){
