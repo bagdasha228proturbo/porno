@@ -1,10 +1,12 @@
 const dino = document.getElementById("dino")
 const cactus = document.getElementById("cactus")
 
+const dinoRyk = document.getElementById('dinoRyk')
+
 document.addEventListener('keydown', function(start){
     if (start.key === 'Enter') {
         document.getElementById("dino").style.animationPlayState = 'running';
-        document.getElementById("cactus").style.animationPlayState = 'running';
+        setInterval(document.getElementById("cactus").style.animationPlayState = 'running', 1000);
     }
 })
 
@@ -30,6 +32,7 @@ document.addEventListener("keydown", function(event) {
     if (cactusLeft < 40 && cactusLeft > 0 && dinaTop >= 140) {
         document.getElementById("cactus").style.animation = 'none';
         clearInterval(dinaGizn);
+        dinoRyk.play()
     }
     // if (document.addEventListener('keydown', function(){
     //     if (start.key === 'Enter') {
