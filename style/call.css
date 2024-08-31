@@ -96,3 +96,8 @@ h1 {
     background-color: rgb(16, 16, 16);
 }
 
+@media (max-width: 1000px) {
+    input{
+        display: none;
+    }
+}
